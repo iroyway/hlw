@@ -59,7 +59,7 @@ tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN
 ```
 docker container inspect name/id
 ```
-![ssh](./docker/dockerbiji/img/shh.png)
+![ssg1](https://raw.githubusercontent.com/iroyway/images/master/img/ssh.png)
 ```
 ssh root@your-server-ip -A -p 22
 ```
