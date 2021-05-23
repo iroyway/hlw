@@ -167,3 +167,5 @@ crontab -e
 ```
 
 本文来源于转于网络，自己学习的记录，如有侵权请联系。
+
+原文：https://www.orzlee.com/toss/2021/02/24/lxk0301-jingdong-signin-scriptautomatic-submission-of-mutual-aid-codes.html
