@@ -8,10 +8,10 @@
    * [git常用操作](git/chaozuo.md)
    * [git问题合辑](git/wenti.md)
 ###  Part Ⅲ
-* [gitbook相关](gitbook/README.md)
-   * [gitbook安装及使用](gitbook/gitbook.md)
-   * [gitbook插件](gitbook/gitbookchajian.md)
-   * [gitbook托管](gitbook/gitbooktuoguan.md)
+* [gitbook相关](gitbook-chaozuo/README.md)
+   * [gitbook安装及使用](gitbook-chaozuo/gitbook.md)
+   * [gitbook插件](gitbook-chaozuo/gitbookchajian.md)
+   * [gitbook托管](gitbook-chaozuo/gitbooktuoguan.md)
 
 ###  Part Ⅳ
 * [gcp相关](gcp/lianjie.md)
@@ -28,3 +28,6 @@
      * [Alpine ssh启动](docker/dockerbiji/Alpinessh.md)
 * [薅羊毛](yangmao/README.md)
    * [京东羊毛](yangmao/jingdongyangmao.md)
+
+###  Part Ⅵ
+* [ssh相关](ssh/README.md)
