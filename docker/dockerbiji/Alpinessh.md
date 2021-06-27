@@ -21,13 +21,12 @@ rc-status
 ```
 4. 【远程服务器docker】在服务器上安装公钥
 ```
-cd .ssh
-cat id_rsa.pub >> authorized_keys
+cat .ssh/id_rsa.pub >> .ssh/authorized_keys
 ```
 为了确保连接成功，请保证以下文件权限正确：
 ```
-chmod 600 authorized_keys
-chmod 700 ~/.ssh
+chmod 700 .ssh
+chmod 600 .ssh/authorized_keys
 ```
 5. 【远程服务器docker】配置ssh 开启root权限
 ```
