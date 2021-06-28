@@ -629,6 +629,7 @@ services:
   v2ray:
     image: v2fly/v2fly-core
     container_name: v2ray
+    restart: always
     volumes: 
       - ./config.json:/etc/v2ray/config.json
       - ./log/v2ray:/var/log/v2ray
@@ -639,6 +640,7 @@ services:
   caddy:
     image: caddy
     container_name: caddy
+    restart: always
     volumes: 
       - ./Caddyfile:/etc/caddy/Caddyfile
       - ./data:/data
@@ -666,7 +668,7 @@ services:
 <p>docker-compose up -d</p>
 <p>&#x8BC1;&#x4E66;SSL&#x8BC1;&#x4E66;&#x8BC4;&#x7EA7;<br><a href="https://myssl.com/" target="_blank">https://myssl.com/</a> </p>
 <footer class="page-footer"><span class="copyright">Copyright &#xA9; iroyway 2019 all right reserved.powered by Gitbook all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x8BE5;&#x6587;&#x7AE0;&#x4FEE;&#x8BA2;&#x65F6;&#x95F4;&#xFF1A;
-2021-06-28 01:19:15
+2021-06-28 19:06:38
 </span></footer>
                                 
                                 </section>
@@ -706,7 +708,7 @@ services:
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"v2ray","level":"5.2.1","depth":2,"previous":{"title":"v2ray","level":"5.2","depth":1,"path":"v2ray/README.md","ref":"v2ray/README.md","articles":[{"title":"v2ray","level":"5.2.1","depth":2,"path":"v2ray/v2ray+caddy+dock.md","ref":"v2ray/v2ray+caddy+dock.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","-highlight","prism","code","-copy-code-button","search-pro","splitter","-chapter-fold","hide-element","page-toc-button","back-to-top-button","tbfed-pagefooter","simple-page-toc","livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"Copyright &copy iroyway 2019 all right reserved.powered by Gitbook","modify_label":"该文章修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"prism":{"css":["prismjs/themes/prism-solarizedlight.css"]},"livereload":{},"simple-page-toc":{"maxDepth":3,"skipFirstH1":true},"splitter":{},"search-pro":{},"code":{"copyButtons":true},"hide-element":{"elements":[".gitbook-link"]},"fontsettings":{"theme":"white","family":"sans","size":2},"page-toc-button":{"maxTocDepth":2,"minTocSize":2},"back-to-top-button":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":true}},"theme":"default","author":"iroyway","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"我的互联网之路学习笔记","links":{"sidebar":{"Home":"https://iroyway.github.io/hlw/"}},"gitbook":"*"},"file":{"path":"v2ray/v2ray+caddy+dock.md","mtime":"2021-06-27T17:19:15.151Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-06-27T17:19:45.541Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"v2ray","level":"5.2.1","depth":2,"previous":{"title":"v2ray","level":"5.2","depth":1,"path":"v2ray/README.md","ref":"v2ray/README.md","articles":[{"title":"v2ray","level":"5.2.1","depth":2,"path":"v2ray/v2ray+caddy+dock.md","ref":"v2ray/v2ray+caddy+dock.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","-highlight","prism","code","-copy-code-button","search-pro","splitter","-chapter-fold","hide-element","page-toc-button","back-to-top-button","tbfed-pagefooter","simple-page-toc","livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"Copyright &copy iroyway 2019 all right reserved.powered by Gitbook","modify_label":"该文章修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"prism":{"css":["prismjs/themes/prism-solarizedlight.css"]},"livereload":{},"simple-page-toc":{"maxDepth":3,"skipFirstH1":true},"splitter":{},"search-pro":{},"code":{"copyButtons":true},"hide-element":{"elements":[".gitbook-link"]},"fontsettings":{"theme":"white","family":"sans","size":2},"page-toc-button":{"maxTocDepth":2,"minTocSize":2},"back-to-top-button":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":true}},"theme":"default","author":"iroyway","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"我的互联网之路学习笔记","links":{"sidebar":{"Home":"https://iroyway.github.io/hlw/"}},"gitbook":"*"},"file":{"path":"v2ray/v2ray+caddy+dock.md","mtime":"2021-06-28T11:06:38.900Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-06-28T11:08:50.762Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
