@@ -60,6 +60,7 @@ services:
   v2ray:
     image: v2fly/v2fly-core
     container_name: v2ray
+    restart: always
     volumes: 
       - ./config.json:/etc/v2ray/config.json
       - ./log/v2ray:/var/log/v2ray
@@ -70,6 +71,7 @@ services:
   caddy:
     image: caddy
     container_name: caddy
+    restart: always
     volumes: 
       - ./Caddyfile:/etc/caddy/Caddyfile
       - ./data:/data
